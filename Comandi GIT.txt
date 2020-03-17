@@ -1,0 +1,16 @@
+git config user.name --> fa vedere il name
+git config user.email -->fa vedere la mail
+git status --> fa vedere lo stato dei file all'interno della cartella
+git add nome file --> aggiunge tutti i file all'index
+git add . --> aggiunge tutti i file all'index senza doverne scrivere tutti i nomiù
+git commit -m "messaggio" --> fa i commit dei file e in più allega al commit un messaggio
+git log --> mostra tutti i commit con i loro ashcode
+git checkout ashcommit --> porta a quel commit
+cd + nome cartella --> entro in una cartella 
+touch + nome file --> creo un file
+mkdir + nome cartella --> creo una cartella
+4 stati dei file 
+Untracked -->quando lo creiamo
+Unmodified -->file committato ma poi non modificato
+Modified -->file prima committato e poi modificato
+staged -->file nell'index pronto per il commit
